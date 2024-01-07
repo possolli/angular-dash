@@ -1,0 +1,9 @@
+.mt-6 {
+  margin-top: 140px;
+}
+.cards {
+  border-radius: 20px !important;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0px 0px 10px 5px #0000000f;
+}

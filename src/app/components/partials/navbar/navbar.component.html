@@ -1,0 +1,19 @@
+<nav class="bg-nav">
+  <div class="text-center pt-5">
+    <img style="border-radius: 50%; object-fit: cover; object-position: top;" width="150" height="150" src="https://www.nube.com.br/media/noticias/2018/05/16/14527/funcionario-perfil-expectativa-lealdade-emprego_400x600.jpg" alt="">
+    <h5 class="mt-3 text-uppercase fw-bold">Isabela Noyer</h5>
+  </div>
+  <div class="links">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item" [class.active]="isLinkActive('/')">
+        <a class="nav-link" [routerLink]="['/']" aria-current="page"><i class="mx-3 bi bi-bar-chart-fill"></i> Geral</a>
+      </li>
+      <li class="nav-item" [class.active]="isLinkActive('/mais-vendidos')">
+        <a class="nav-link" [routerLink]="['/mais-vendidos']" aria-current="page"><i class="bi bi-globe-americas mx-3"></i> Mais Vendidos</a>
+      </li>
+      <li class="nav-item" [class.active]="isLinkActive('/alguma-outra-rota')">
+        <a class="nav-link" [routerLink]="['/alguma-outra-rota']" aria-current="page"><i class="mx-3 bi bi-bar-chart-fill"></i> Alguma Outra Rota</a>
+      </li>
+    </ul>
+  </div>
+</nav>

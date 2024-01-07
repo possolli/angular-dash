@@ -1,0 +1,36 @@
+.bg-nav {
+  background-color: #fff;
+  width: 350px;
+  height: 100%;
+  margin-top: 100px;
+  border-radius: 0 20px 20px 0;
+  position: fixed;
+  left: 0;
+}
+
+li {
+  color: #58585a;
+  font-size: 16px;
+  padding: 15px 29px;
+  font-weight: 600;
+  text-transform: uppercase;
+  border-bottom: 1px solid #f1f1f1;
+}
+.active {
+  color: rgb(255, 27, 0);
+  border-bottom: 2px solid rgb(255, 27, 0);
+  border-left: 2px solid rgb(255, 27, 0);
+  border-top: 2px solid rgb(255, 27, 0);
+  background-color: #ededed;
+  border-radius: 50px 0 0 50px;
+  margin-left: 20px;
+}
+ul {
+  width: 100%;
+}
+.links {
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
