@@ -3,7 +3,7 @@
   gap: 10px;
 }
 .cards {
-  border-radius: 20px !important;
+  border-radius: 10px !important;
   background: #fff;
   width: 100%;
   box-shadow: 0px 0px 10px 5px #0000000f;
@@ -22,5 +22,8 @@
   color: #fff;
 }
 .fs-35 {
-  font-size: 3.5rem!important;
+  font-size: 3rem!important;
+}
+.fs-p {
+  font-size: 14px;
 }

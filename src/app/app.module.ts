@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/partials/header/header.component';
 import { BestsellersComponent } from './components/bestsellers/bestsellers.component';
 import { CountUpModule } from 'ngx-countup';
 import { CounterupComponent } from './components/counterup/counterup.component';
+import { DatafilesComponent } from './components/datafiles/datafiles.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { CounterupComponent } from './components/counterup/counterup.component';
     LogoComponent,
     HeaderComponent,
     BestsellersComponent,
-    CounterupComponent
+    CounterupComponent,
+    DatafilesComponent
   ],
   imports: [
     BrowserModule,

@@ -33,15 +33,25 @@ export class DashboardComponent {
       type: 'pie'
     },
     title: {
-      text: 'Exemplo de Gráfico de Pizza'
+      text: 'Gastos de Logística ao Longo do Ano'
+    },
+    plotOptions: {
+      pie: {
+        dataLabels: {
+          formatter: function () {
+            return this.point.name + ' ' + this.point.y + ' Mi';
+          }
+        }
+      }
     },
     series: [
       {
         name: 'Dados',
         data: [
-          { name: 'Categoria 1', y: 15, color: 'rgb(255, 102, 119)' },
-          { name: 'Categoria 2', y: 65, color: 'rgb(204, 0, 46)' },
-          { name: 'Categoria 3', y: 20, color: 'rgb(255, 0, 58)' },
+          { name: 'Tarifas Aduaneiras', y: 15, color: 'rgb(255, 102, 119)' },
+          { name: 'Impostos', y: 65, color: 'rgb(204, 0, 46)' },
+          { name: 'Frete Internacional', y: 20, color: 'rgb(255, 0, 58)' },
+          { name: 'Desembaraço Aduaneiro', y: 20, color: 'rgb(255, 0, 58)' }
         ]
       }
     ] as any
@@ -99,12 +109,12 @@ export class DashboardComponent {
     series: [
       {
         name: '2022',
-        data: [20, 25, 23, 30, 25, 35, 38, 20, 25, 23, 30, 25, 35, 38],
+        data: [20, 25, 23, 30, 25, 35, 38, 20, 25, 23, 30, 25],
         color: '#000',
       },
       {
         name: '2023',
-        data: [24, 28, 29, 35, 38, 45, 50,35, 38, 20, 25, 23, 30 ],
+        data: [24, 28, 29, 35, 38, 45, 50,35, 38, 20, 25, 23],
         color: '#FF1B00',
 
       },
@@ -116,20 +126,21 @@ export class DashboardComponent {
       type: 'bar'
     },
     title: {
-      text: 'Exemplo de Gráfico de Barras'
+      text: 'Custos de Importação'
     },
     xAxis: {
-      categories: ['Categoria 1', 'Categoria 2', 'Categoria 3']
+      categories: ['China', 'Vietnã', 'Malásia', 'Tailândia']
     },
     yAxis: {
       title: {
-        text: 'Valores'
+        text: ''
       }
     },
     series: [
       {
-        name: 'Série 1',
-        data: [10, 20, 15]
+        name: '2023',
+        data: [65, 55, 50, 40],
+        color: '#FF003a'
       }
     ] as any
   });

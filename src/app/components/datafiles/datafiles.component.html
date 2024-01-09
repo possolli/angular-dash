@@ -1,0 +1,71 @@
+<div style="height: 100vh !important;" class="container mt-6">
+  <div class="mb-3">
+    <h2 class="fw-bold">Exportar Dados</h2>
+    <a style="font-size: 14px; color: #1e1e1e;" href=""><i class="bi bi-house-fill"></i>Dashboard / Arquivos</a>
+  </div>
+  <div class="d-flex justify-content-between flex-wrap">
+    <div class="d-flex flex-wrap">
+      <select class="select mb-3" name="" id="">
+        <option value="">1 Semana</option>
+        <option value="">Esse mês</option>
+        <option value="">Mês Passado</option>
+        <option value="">Trimestral</option>
+        <option value="">Semestral</option>
+      </select>
+      <input class="select mx-sm-3 mb-3" type="datetime-local">
+    </div>
+
+    <div class="d-flex mb-3 flex-wrap">
+      <div class="d-flex position relative labels mx-xl-3 mx-1">
+        <label for="pdf"><i class="bi bi-filetype-pdf"></i> PDF</label>
+        <input id="pdf" class="position-absolute opacity-0" type="radio" name="" id="" checked>
+      </div>
+      <div class="d-flex position relative labels mx-xl-3 mx-1 active">
+        <label for="doc"><i class="bi bi-file-earmark-text "></i> DOC</label>
+        <input id="doc" class="position-absolute opacity-0" type="radio" name="" id="">
+      </div>
+      <div class="d-flex position relative labels mx-xl-3 mx-1">
+        <label for="csv"><i class="bi bi-filetype-csv"></i> CSV</label>
+        <input id="csv" class="position-absolute opacity-0" type="radio" name="" id="">
+      </div>
+      <div class="d-flex position relative labels mx-xl-3 mx-1 mr-0">
+        <label for="xls"><i class="bi bi-filetype-xls"></i> XLS</label>
+        <input id="xls" class="position-absolute opacity-0" type="radio" name="" id="">
+      </div>
+    </div>
+  </div>
+  <div style="overflow: auto;" class="product-list cards px-4">
+    <div class="d-flex align-items-center justify-content-between py-3 border-bottom">
+      <p class="m-0"><strong>#1</strong> <span class="px-5">Faturamento de Dezembro</span></p>
+      <div class="d-flex">
+        <p style="font-size: 14px;" class="m-0 fw-bold mx-5">31/12/2024</p>
+        <i class="bi bi-file-earmark-arrow-down-fill mx-3 text-warning"></i>
+        <i class="bi bi-trash3-fill text-danger"></i>
+      </div>
+    </div>
+    <div class="d-flex align-items-center justify-content-between py-3 border-bottom">
+      <p class="m-0"><strong>#2</strong> <span class="px-5">Relatorio logístico 06 de Janeiro</span></p>
+      <div class="d-flex">
+        <p style="font-size: 14px;" class="m-0 fw-bold mx-5">06/01/2024 </p>
+        <i class="bi bi-file-earmark-arrow-down-fill mx-3 text-warning"></i>
+        <i class="bi bi-trash3-fill text-danger"></i>
+      </div>
+    </div>
+    <div class="d-flex align-items-center justify-content-between py-3 border-bottom">
+      <p class="m-0"><strong>#3</strong> <span class="px-5">Entrada e saída de verbas</span></p>
+      <div class="d-flex justify-content-between">
+        <p style="font-size: 14px;" class="m-0 mx-5 fw-bold">06/01/2023</p>
+        <i class="bi bi-file-earmark-arrow-down-fill mx-3 text-warning"></i>
+        <i class="bi bi-trash3-fill text-danger"></i>
+      </div>
+    </div>
+    <div class="d-flex align-items-center justify-content-between py-3 border-bottom">
+      <p class="m-0"><strong>#2</strong> <span class="px-5">Relatorio logístico 06 de Novembro</span></p>
+      <div class="d-flex">
+        <p style="font-size: 14px;" class="m-0 fw-bold mx-5">06/12/2023</p>
+        <i class="bi bi-file-earmark-arrow-down-fill mx-3 text-warning"></i>
+        <i class="bi bi-trash3-fill text-danger"></i>
+      </div>
+    </div>
+  </div>
+</div>
