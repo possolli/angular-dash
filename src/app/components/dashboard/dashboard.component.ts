@@ -14,7 +14,7 @@ export class DashboardComponent {
       type: 'line'
     },
     title: {
-      text: 'Linechart'
+      text: 'Ganho x Perca de Estoque'
     },
     credits: {
       enabled: false
